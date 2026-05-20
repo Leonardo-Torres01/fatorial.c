@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "function_fatorial.c"
+#include <stdlib.h>
 
 int main( int argc, char *argv[]) 
    {
-    int numero = *argv[1] - 48;
+    int numero = atoi(argv[1]);
 
     if (numero < 0) 
     {
